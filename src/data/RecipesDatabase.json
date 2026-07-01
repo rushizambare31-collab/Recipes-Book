@@ -884,5 +884,82 @@
     "trending": false,
     "rating": 4.5,
     "reviews": 198
-  }
+  },
+  {
+  "id": 28,
+  "name": "Fry Modak",
+  "slug": "fry-modak",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "category": "Dessert",
+  "emoji": "🥟",
+  "image": "https://snackfax.com/wp-content/uploads/2023/03/fried-mdak--1068x601.png",
+  "description": "A crispy and golden Maharashtrian festive sweet filled with coconut, jaggery, and aromatic cardamom, traditionally prepared during Ganesh Chaturthi.",
+  "prepTime": "25 mins",
+  "cookTime": "20 mins",
+  "difficulty": "Medium",
+  "servings": 12,
+  "calories": "210",
+  "protein": "3g",
+  "nutrition": {
+    "calories": "210 kcal",
+    "protein": "3g",
+    "carbs": "28g",
+    "fat": "10g",
+    "fiber": "2g"
+  },
+  "ingredients": [
+    "2 cups all-purpose flour (Maida)",
+    "2 tbsp semolina (Rava/Sooji)",
+    "2 tbsp ghee",
+    "A pinch of salt",
+    "Water as required",
+    "1 cup grated fresh coconut",
+    "3/4 cup grated jaggery",
+    "1/2 tsp cardamom powder",
+    "1 tbsp chopped almonds",
+    "1 tbsp chopped cashews",
+    "1 tbsp raisins",
+    "1 tsp poppy seeds (optional)",
+    "Oil or ghee for deep frying"
+  ],
+  "instructions": [
+    {
+      "title": "Prepare the Dough",
+      "text": "Mix flour, semolina, salt, and ghee. Gradually add water and knead into a smooth, firm dough. Cover and let it rest for 20 minutes."
+    },
+    {
+      "title": "Make the Filling",
+      "text": "Heat a pan and combine grated coconut and jaggery. Cook until the jaggery melts and blends well. Add cardamom powder, chopped nuts, raisins, and poppy seeds. Allow the mixture to cool completely."
+    },
+    {
+      "title": "Shape the Modaks",
+      "text": "Divide the dough into small balls and roll each into a thin circle. Place a spoonful of filling in the center, create pleats around the edges, and seal tightly to form the classic modak shape."
+    },
+    {
+      "title": "Deep Fry",
+      "text": "Heat oil or ghee on medium-low flame. Fry the modaks in batches until they become evenly golden brown and crisp. Drain on paper towels."
+    },
+    {
+      "title": "Serve",
+      "text": "Allow the fried modaks to cool slightly before serving. They taste delicious warm and can also be stored in an airtight container for several days."
+    }
+  ],
+  "chefNotes": "For extra crispy modaks, add a little semolina to the dough and fry them on a medium-low flame. Never fry on high heat, as the outer layer may brown quickly while remaining uncooked inside. Adding a teaspoon of roasted poppy seeds to the filling gives an authentic festive flavor.",
+  "tags": [
+    "festival",
+    "ganesh chaturthi",
+    "sweet",
+    "crispy",
+    "traditional",
+    "maharashtrian"
+  ],
+  "featured": true,
+  "trending": false,
+  "rating": 4.9,
+  "reviews": 218
+}
 ]
+
+
+
