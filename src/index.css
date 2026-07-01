@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
+
+  --color-cream-50: #FDF9F4;
+  --color-cream-100: #FBF7F2;
+  --color-cream-200: #F5EDE3;
+  --color-cream-300: #EDE3D5;
+  --color-cream-400: #E8E0D8;
+
+  --color-brown-50: #F5F0EB;
+  --color-brown-100: #E8E0D8;
+  --color-brown-200: #D4C8BC;
+  --color-brown-300: #B8A898;
+  --color-brown-400: #9B9490;
+  --color-brown-500: #7A726C;
+  --color-brown-600: #6B6462;
+  --color-brown-700: #4A4440;
+  --color-brown-800: #2A2420;
+  --color-brown-900: #1A1614;
+
+  --color-orange-50: #FFF3ED;
+  --color-orange-100: #FFE0D0;
+  --color-orange-200: #FFBFA0;
+  --color-orange-300: #FF9566;
+  --color-orange-400: #E85D2C;
+  --color-orange-500: #D14A1A;
+  --color-orange-600: #B83A10;
+  --color-orange-700: #8C2D0C;
+  --color-orange-800: #6A2208;
+
+  --color-dark-bg: #1A1614;
+  --color-dark-surface: #2A2420;
+  --color-dark-border: #3A3430;
+  --color-dark-text: #F5F0EB;
+  --color-dark-muted: #A89E96;
+}
+
+/* ========== BASE STYLES ========== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-100);
+  color: #1A1A1A;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ========== DARK MODE ========== */
+.dark body,
+.dark {
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
+
+.dark .bg-cream-100 { background-color: var(--color-dark-bg); }
+.dark .bg-white { background-color: var(--color-dark-surface); }
+.dark .bg-cream-50 { background-color: var(--color-brown-900); }
+.dark .text-gray-900 { color: var(--color-dark-text); }
+.dark .text-gray-700 { color: var(--color-dark-muted); }
+.dark .border-cream-400 { border-color: var(--color-dark-border); }
+
+/* ========== EDITORIAL CONTAINER ========== */
+/* Centered container with responsive padding: 16px / 32px / 64px */
+.container-editorial {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media (min-width: 640px) {
+  .container-editorial {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-editorial {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+/* ========== TYPOGRAPHY ========== */
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+h1 { margin-bottom: 24px; }
+h2 { margin-bottom: 16px; }
+h3 { margin-bottom: 8px; }
+
+p {
+  line-height: 1.75;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+.label-uppercase {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* ========== SCROLLBAR ========== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream-200);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brown-300);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brown-400);
+}
+.dark ::-webkit-scrollbar-track {
+  background: var(--color-dark-surface);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-brown-600);
+}
+
+/* ========== SELECTION ========== */
+::selection {
+  background-color: var(--color-orange-400);
+  color: white;
+}
+
+/* ========== PRINT STYLES ========== */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 12mm 16mm;
+    background: var(--color-cream-50) !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-page * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+.print-only {
+  display: none;
+}
+
+/* ========== CUSTOM ANIMATIONS ========== */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, var(--color-cream-200) 25%, var(--color-cream-100) 50%, var(--color-cream-200) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+.dark .animate-shimmer {
+  background: linear-gradient(90deg, var(--color-dark-surface) 25%, var(--color-brown-800) 50%, var(--color-dark-surface) 75%);
+  background-size: 200% 100%;
+}
