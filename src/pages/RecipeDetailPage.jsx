@@ -70,7 +70,7 @@ export default function RecipeDetailPage() {
               {/* Left - Image */}
               <div className="relative rounded-3xl overflow-hidden aspect-[4/3]">
                 <img
-                  src={getRecipeImage(recipe.slug)}
+                  src={recipe.image}
                   alt={recipe.name}
                   className="w-full h-full object-cover"
                 />
@@ -79,7 +79,7 @@ export default function RecipeDetailPage() {
                     CHEF'S SPECIAL
                   </span>
                   <h1 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-3">
-                    Heritage {recipe.name}
+                    {recipe.name}
                   </h1>
                   <p className="text-sm text-white/80 max-w-md leading-relaxed">
                     {recipe.description}
