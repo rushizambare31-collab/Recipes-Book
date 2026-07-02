@@ -195,8 +195,8 @@ export default function ContactPage() {
             <div className="space-y-7">
               {[
                 { icon: <FiMapPin className="text-orange-400" size={18} />, label: 'Mumbai Studio', detail: '402, Editorial Plaza, Worli Seaface, Mumbai, MH 400018' },
-                { icon: <FiMail className="text-orange-400" size={18} />, label: 'General Inquiries', detail: 'hello@foodfinder.in' },
-                { icon: <FiPhone className="text-orange-400" size={18} />, label: 'Editorial Desk', detail: '+91 22 2493 0030' },
+                { icon: <FiMail className="text-orange-400" size={18} />, label: 'General Inquiries', detail: 'rushizambare31@gmail.com' },
+                { icon: <FiPhone className="text-orange-400" size={18} />, label: 'Editorial Desk', detail: '+91 9172293319' },
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
                   <div className="mt-0.5">{item.icon}</div>
