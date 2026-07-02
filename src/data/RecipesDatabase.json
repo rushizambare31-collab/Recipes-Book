@@ -958,10 +958,160 @@
   "trending": false,
   "rating": 4.9,
   "reviews": 218
+  },
+  {
+  "id": 29,
+  "name": "Moong Dal",
+  "slug": "moong-dal",
+  "cuisine": "Indian",
+  "region": "Pan India",
+  "category": "Main Course",
+  "emoji": "🥣",
+  "image": "https://nummyrecipes.com/wp-content/uploads/2025/10/Dal-Easy-Recipe.jpg",
+  "description": "A wholesome and comforting yellow moong dal cooked with aromatic spices, tomatoes, and a flavorful tempering. Perfect with steamed rice or roti.",
+  "prepTime": "10 mins",
+  "cookTime": "25 mins",
+  "difficulty": "Easy",
+  "servings": 4,
+  "calories": "180",
+  "protein": "11g",
+  "nutrition": {
+    "calories": "180 kcal",
+    "protein": "11g",
+    "carbs": "24g",
+    "fat": "5g",
+    "fiber": "6g"
+  },
+  "ingredients": [
+    "1 cup yellow moong dal",
+    "3 cups water",
+    "1 medium onion, finely chopped",
+    "1 medium tomato, finely chopped",
+    "2 green chilies, slit",
+    "1 tsp ginger-garlic paste",
+    "1/2 tsp turmeric powder",
+    "1 tsp cumin seeds",
+    "1/2 tsp mustard seeds (optional)",
+    "1/2 tsp red chili powder",
+    "1 tsp coriander powder",
+    "1/2 tsp garam masala",
+    "2 tbsp ghee or oil",
+    "Fresh coriander leaves, chopped",
+    "Salt to taste",
+    "Juice of 1/2 lemon (optional)"
+  ],
+  "instructions": [
+    {
+      "title": "Cook the Dal",
+      "text": "Wash the moong dal thoroughly. Pressure cook it with water, turmeric, and salt for 2-3 whistles until soft."
+    },
+    {
+      "title": "Prepare the Tempering",
+      "text": "Heat ghee or oil in a pan. Add cumin seeds and mustard seeds. Once they splutter, add chopped onions and sauté until golden."
+    },
+    {
+      "title": "Cook the Masala",
+      "text": "Add ginger-garlic paste and green chilies. Stir for a minute, then add tomatoes, coriander powder, and red chili powder. Cook until the tomatoes become soft."
+    },
+    {
+      "title": "Combine Everything",
+      "text": "Pour the cooked dal into the pan and mix well. Add garam masala and simmer for 5-7 minutes. Adjust the consistency by adding water if needed."
+    },
+    {
+      "title": "Serve",
+      "text": "Garnish with fresh coriander leaves and a squeeze of lemon juice. Serve hot with steamed rice, jeera rice, roti, or chapati."
+    }
+  ],
+  "chefNotes": "Roasting the moong dal lightly before cooking gives it a rich, nutty aroma. Finish with a spoonful of ghee just before serving for authentic homemade flavor.",
+  "tags": [
+    "healthy",
+    "protein-rich",
+    "comfort food",
+    "vegetarian",
+    "gluten-free",
+    "everyday meal"
+  ],
+  "featured": false,
+  "trending": true,
+  "rating": 4.7,
+  "reviews": 295
+  },
+  {
+  "id": 30,
+  "name": "Chawli Chi Bhaji",
+  "slug": "chawli-chi-bhaji",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "category": "Main Course",
+  "emoji": "🥬",
+  "image": "https://i.ytimg.com/vi/gnojZI-ij9E/maxresdefault.jpg",
+  "description": "A simple and nutritious Maharashtrian stir-fry made with fresh chawli (cowpea) leaves, lightly seasoned with garlic, green chilies, and traditional spices.",
+  "prepTime": "15 mins",
+  "cookTime": "20 mins",
+  "difficulty": "Easy",
+  "servings": 4,
+  "calories": "140",
+  "protein": "6g",
+  "nutrition": {
+    "calories": "140 kcal",
+    "protein": "6g",
+    "carbs": "12g",
+    "fat": "7g",
+    "fiber": "5g"
+  },
+  "ingredients": [
+    "4 cups fresh chawli (cowpea) leaves, washed and chopped",
+    "1 medium onion, finely chopped",
+    "5 garlic cloves, crushed",
+    "2 green chilies, chopped",
+    "2 tbsp oil",
+    "1/2 tsp mustard seeds",
+    "1/2 tsp cumin seeds",
+    "1/4 tsp turmeric powder",
+    "1 tsp red chili powder",
+    "2 tbsp grated fresh coconut",
+    "Salt to taste",
+    "Fresh coriander leaves for garnish (optional)"
+  ],
+  "instructions": [
+    {
+      "title": "Prepare the Leaves",
+      "text": "Wash the chawli leaves thoroughly, remove thick stems, and chop them finely."
+    },
+    {
+      "title": "Make the Tempering",
+      "text": "Heat oil in a pan. Add mustard seeds and cumin seeds. Once they crackle, add crushed garlic and green chilies. Sauté until fragrant."
+    },
+    {
+      "title": "Cook the Onion",
+      "text": "Add the chopped onion and cook until it turns soft and light golden."
+    },
+    {
+      "title": "Cook the Bhaji",
+      "text": "Add turmeric, red chili powder, and chopped chawli leaves. Mix well, cover, and cook on low flame for 10–12 minutes, stirring occasionally. Add salt and cook until the leaves become tender."
+    },
+    {
+      "title": "Finish and Serve",
+      "text": "Sprinkle grated fresh coconut, mix gently, and serve hot with jowar bhakri, bajra bhakri, chapati, or steamed rice and dal."
+    }
+  ],
+  "chefNotes": "Avoid adding water while cooking, as the leaves release enough moisture. Fresh grated coconut enhances the authentic Maharashtrian flavor, and garlic gives the bhaji its signature aroma.",
+  "tags": [
+    "healthy",
+    "leafy greens",
+    "maharashtrian",
+    "vegetarian",
+    "high-fiber",
+    "traditional"
+  ],
+  "featured": false,
+  "trending": false,
+  "rating": 4.6,
+  "reviews": 154
   }
 
 
-  
+
 ]
 
 
