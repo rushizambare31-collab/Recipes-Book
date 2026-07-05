@@ -1196,7 +1196,7 @@
   "region": "Western India",
   "category": "Main Course",
   "emoji": "🌶️",
-  "image": "https://www.whiskaffair.com/wp-content/uploads/2020/05/Sev-Bhaji-2-3.jpg",
+  "image": "https://i.ytimg.com/vi/EvY9S4AV1qI/maxresdefault.jpg",
   "description": "A traditional Maharashtrian dry-style Sev Bhaji made with spicy onion masala and thick gram flour sev. This flavorful dish is commonly served with jowar bhakri, chapati, or bajra bhakri.",
   "prepTime": "10 mins",
   "cookTime": "20 mins",
@@ -1266,7 +1266,86 @@
   "trending": true,
   "rating": 4.7,
   "reviews": 187
-  }
+  },
+    {
+  "id": 33,
+  "name": "Kurdai Chi Bhaji",
+  "slug": "kurdai-chi-bhaji",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "category": "Main Course",
+  "emoji": "🍲",
+  "image": "https://www.vegetariantastebuds.com/wp-content/uploads/2021/04/kurdai-chi-bhaji.jpg",
+  "description": "A traditional Maharashtrian curry made with crispy fried Kurdai (sun-dried wheat noodles) cooked in a flavorful onion-tomato gravy. This nostalgic village-style dish is best enjoyed with chapati, bhakri, or steamed rice.",
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "difficulty": "Easy",
+  "servings": 4,
+  "calories": "245",
+  "protein": "6g",
+  "nutrition": {
+    "calories": "245 kcal",
+    "protein": "6g",
+    "carbs": "35g",
+    "fat": "9g",
+    "fiber": "3g"
+  },
+  "ingredients": [
+    "take 5 to 10 kurdai and soak in warm/cold water for 5 to 10 minutes",
+    "2 medium onions, finely chopped",
+    "2 medium tomatoes, finely chopped",
+    "1 tbsp ginger-garlic paste",
+    "2 green chilies, chopped",
+    "2 tbsp oil",
+    "1 tsp mustard seeds",
+    "1 tsp cumin seeds",
+    "8-10 curry leaves",
+    "1/2 tsp turmeric powder",
+    "1½ tsp red chili powder",
+    "1 tsp coriander powder",
+    "1 tsp goda masala",
+    "1/2 tsp garam masala",
+    "2½ cups hot water",
+    "2 tbsp chopped coriander leaves",
+    "Salt to taste"
+  ],
+  "instructions": [
+    {
+      "title": "Soak the Kurdai in water for 5 to 10 minutes",
+      "text": "Soak the Kurdai in warm/cold water for 5 to 10 minutes until they soften. Drain and set aside."
+    },
+    {
+      "title": "Prepare the Masala",
+      "text": "Heat oil in a pan. Add mustard seeds, cumin seeds, and curry leaves. Once they splutter, add onions and sauté until golden. Add ginger-garlic paste and green chilies, then cook for a minute."
+    },
+    {
+      "title": "Cook the Gravy",
+      "text": "Add tomatoes, turmeric, red chili powder, coriander powder, goda masala, garam masala, and salt. Cook until the tomatoes soften and oil separates."
+    },
+    {
+      "title": "Add Water and Kurdai",
+      "text": "Pour in hot water and bring the gravy to a gentle boil. Add the softened Kurdai and simmer for 2–3 minutes until they absorb the flavorful gravy while still retaining some texture."
+    },
+    {
+      "title": "Garnish and Serve",
+      "text": "Garnish with freshly chopped coriander leaves and serve immediately with chapati, bhakri, or steamed rice."
+    }
+  ],
+  "chefNotes": "Always fry the Kurdai before adding them to the curry. Add them only at the end of cooking, as they soften very quickly. For an authentic Maharashtrian taste, use homemade Goda Masala and serve the bhaji hot.",
+  "tags": [
+    "maharashtrian",
+    "traditional",
+    "village-style",
+    "comfort food",
+    "quick recipe",
+    "vegetarian"
+  ],
+  "featured": false,
+  "trending": false,
+  "rating": 4.6,
+  "reviews": 132
+}
+
 
 
 ]
