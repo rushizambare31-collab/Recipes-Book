@@ -1108,8 +1108,165 @@
   "trending": false,
   "rating": 4.6,
   "reviews": 154
+  },
+  {
+  "id": 31,
+  "name": "Lal Shev Bhaji",
+  "slug": "lal-shev-bhaji",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "category": "Main Course",
+  "emoji": "🌶️",
+  "image": "https://i.ytimg.com/vi/4rr6V9e0Hrc/maxresdefault.jpg",
+  "description": "A spicy Maharashtrian-style red curry made with crispy gram flour sev simmered in a rich onion-tomato gravy. This comforting rassedar bhaji pairs perfectly with bhakri, chapati, or steamed rice.",
+  "prepTime": "10 mins",
+  "cookTime": "25 mins",
+  "difficulty": "Easy",
+  "servings": 4,
+  "calories": "285",
+  "protein": "9g",
+  "nutrition": {
+    "calories": "285 kcal",
+    "protein": "9g",
+    "carbs": "24g",
+    "fat": "17g",
+    "fiber": "5g"
+  },
+  "ingredients": [
+    "2 cups thick red sev (Lal Shev)",
+    "2 medium onions, finely chopped",
+    "2 medium tomatoes, pureed",
+    "1 tbsp ginger-garlic paste",
+    "2 green chilies, slit",
+    "2 tbsp oil",
+    "1 tsp mustard seeds",
+    "1 tsp cumin seeds",
+    "8-10 curry leaves",
+    "1/2 tsp turmeric powder",
+    "2 tsp red chili powder",
+    "1 tsp coriander powder",
+    "1/2 tsp cumin powder",
+    "1 tsp goda masala",
+    "1/2 tsp garam masala",
+    "3 cups hot water",
+    "2 tbsp chopped coriander leaves",
+    "Salt to taste"
+  ],
+  "instructions": [
+    {
+      "title": "Prepare the Tempering",
+      "text": "Heat oil in a pan. Add mustard seeds, cumin seeds, and curry leaves. Once they splutter, add chopped onions and sauté until golden brown."
+    },
+    {
+      "title": "Cook the Masala",
+      "text": "Add ginger-garlic paste and green chilies. Sauté for a minute, then add tomato puree, turmeric, red chili powder, coriander powder, cumin powder, goda masala, garam masala, and salt. Cook until the oil separates."
+    },
+    {
+      "title": "Make the Rassa",
+      "text": "Pour in hot water and bring the curry to a boil. Simmer for 8-10 minutes so the spices blend well and the gravy thickens slightly."
+    },
+    {
+      "title": "Add the Sev",
+      "text": "Just before serving, add the red sev to the boiling gravy and cook for 2-3 minutes. The sev should soften slightly while still retaining some texture."
+    },
+    {
+      "title": "Serve Hot",
+      "text": "Garnish with fresh coriander leaves and serve immediately with jowar bhakri, chapati, pav, or steamed rice."
+    }
+  ],
+  "chefNotes": "Always add the sev at the end of cooking. If added too early, it will become overly soft and lose its texture. For authentic Maharashtrian flavor, use Kolhapuri red chili powder and a little goda masala.",
+  "tags": [
+    "maharashtrian",
+    "spicy",
+    "rassa",
+    "quick recipe",
+    "vegetarian",
+    "comfort food"
+  ],
+  "featured": false,
+  "trending": true,
+  "rating": 4.8,
+  "reviews": 241
+  },
+  {
+  "id": 32,
+  "name": "Sukki Shev Bhaji",
+  "slug": "sukki-shev-bhaji",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "category": "Main Course",
+  "emoji": "🌶️",
+  "image": "https://www.whiskaffair.com/wp-content/uploads/2020/05/Sev-Bhaji-2-3.jpg",
+  "description": "A traditional Maharashtrian dry-style Sev Bhaji made with spicy onion masala and thick gram flour sev. This flavorful dish is commonly served with jowar bhakri, chapati, or bajra bhakri.",
+  "prepTime": "10 mins",
+  "cookTime": "20 mins",
+  "difficulty": "Easy",
+  "servings": 4,
+  "calories": "265",
+  "protein": "8g",
+  "nutrition": {
+    "calories": "265 kcal",
+    "protein": "8g",
+    "carbs": "22g",
+    "fat": "16g",
+    "fiber": "4g"
+  },
+  "ingredients": [
+    "2 cups thick sev",
+    "2 medium onions, finely chopped",
+    "2 green chilies, chopped",
+    "1 tbsp ginger-garlic paste",
+    "2 tbsp oil",
+    "1 tsp mustard seeds",
+    "1 tsp cumin seeds",
+    "8-10 curry leaves",
+    "1/2 tsp turmeric powder",
+    "2 tsp red chili powder",
+    "1 tsp coriander powder",
+    "1/2 tsp cumin powder",
+    "1 tsp goda masala",
+    "1/2 tsp garam masala",
+    "2 tbsp chopped fresh coriander",
+    "2 tbsp grated fresh coconut (optional)",
+    "3-4 tbsp water",
+    "Salt to taste"
+  ],
+  "instructions": [
+    {
+      "title": "Prepare the Tempering",
+      "text": "Heat oil in a kadai. Add mustard seeds, cumin seeds, and curry leaves. Once they crackle, add chopped green chilies and onions. Sauté until the onions turn golden brown."
+    },
+    {
+      "title": "Cook the Masala",
+      "text": "Add ginger-garlic paste and cook for a minute. Mix in turmeric, red chili powder, coriander powder, cumin powder, goda masala, garam masala, and salt. Sprinkle a few tablespoons of water and cook the masala until aromatic."
+    },
+    {
+      "title": "Add the Sev",
+      "text": "Add the thick sev to the masala and gently mix so that every piece is coated with the spices. Sprinkle 2-3 tablespoons of water to soften the sev slightly without making it soggy."
+    },
+    {
+      "title": "Steam Briefly",
+      "text": "Cover the pan and cook on low flame for 2-3 minutes until the sev absorbs the flavors and softens slightly."
+    },
+    {
+      "title": "Garnish and Serve",
+      "text": "Turn off the heat and garnish with fresh coriander and grated coconut. Serve hot with jowar bhakri, bajra bhakri, chapati, or plain curd."
+    }
+  ],
+  "chefNotes": "Use thick Maharashtrian sev for the best texture. Add only a small amount of water while mixing so the sev remains soft yet doesn't become mushy. A pinch of jaggery can be added to balance the spice if desired.",
+  "tags": [
+    "maharashtrian",
+    "dry sabzi",
+    "sev bhaji",
+    "quick recipe",
+    "vegetarian",
+    "bhakri special"
+  ],
+  "featured": false,
+  "trending": true,
+  "rating": 4.7,
+  "reviews": 187
   }
-
 
 
 ]
