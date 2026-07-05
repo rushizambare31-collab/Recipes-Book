@@ -1267,7 +1267,7 @@
   "rating": 4.7,
   "reviews": 187
   },
-    {
+  {
   "id": 33,
   "name": "Kurdai Chi Bhaji",
   "slug": "kurdai-chi-bhaji",
@@ -1344,6 +1344,166 @@
   "trending": false,
   "rating": 4.6,
   "reviews": 132
+},
+{
+  "id": 34,
+  "name": "Chicken Lollipop",
+  "slug": "chicken-lollipop",
+  "cuisine": "Indo-Chinese",
+  "region": "India",
+  "category": "Starter",
+  "emoji": "🍗",
+  "image": "https://static.vecteezy.com/system/resources/previews/015/933/790/non_2x/chicken-lollipop-grilled-tandoori-non-veg-with-schezwan-sauce-dip-chutney-free-photo.jpg",
+  "description": "A popular Indo-Chinese appetizer featuring frenched chicken wings marinated with aromatic spices, coated in a flavorful batter, and deep-fried until crispy and golden. Perfect with Schezwan sauce or spicy mayo.",
+  "prepTime": "20 mins",
+  "cookTime": "15 mins",
+  "difficulty": "Medium",
+  "servings": 4,
+  "calories": "385",
+  "protein": "28g",
+  "nutrition": {
+    "calories": "385 kcal",
+    "protein": "28g",
+    "carbs": "14g",
+    "fat": "24g",
+    "fiber": "1g"
+  },
+  "ingredients": [
+    "12 chicken lollipops (frenched wings or drumettes)",
+    "1 tbsp ginger-garlic paste",
+    "1 tbsp soy sauce",
+    "1 tbsp red chili sauce",
+    "1 tsp vinegar",
+    "1 tsp black pepper powder",
+    "1 tsp Kashmiri red chili powder",
+    "1/2 tsp red chili flakes",
+    "1/2 tsp garam masala",
+    "1 egg",
+    "1/2 cup cornflour",
+    "1/4 cup all-purpose flour (Maida)",
+    "1 tbsp rice flour",
+    "Salt to taste",
+    "Oil for deep frying",
+    "Spring onion greens for garnish",
+    "Schezwan sauce for serving"
+  ],
+  "instructions": [
+    {
+      "title": "Marinate the Chicken",
+      "text": "Wash and pat dry the chicken lollipops. Mix ginger-garlic paste, soy sauce, chili sauce, vinegar, pepper, chili powder, garam masala, and salt. Coat the chicken well and marinate for at least 30 minutes."
+    },
+    {
+      "title": "Prepare the Batter",
+      "text": "Add the egg, cornflour, maida, and rice flour to the marinated chicken. Mix thoroughly until every piece is evenly coated with a thick batter."
+    },
+    {
+      "title": "Deep Fry",
+      "text": "Heat oil to medium-high temperature (170–175°C). Fry the chicken lollipops in batches for 6–8 minutes until crispy, golden brown, and cooked through."
+    },
+    {
+      "title": "Drain and Rest",
+      "text": "Remove the fried lollipops and place them on a wire rack or paper towels to remove excess oil while keeping them crispy."
+    },
+    {
+      "title": "Garnish and Serve",
+      "text": "Garnish with chopped spring onion greens and serve hot with Schezwan sauce, garlic dip, or spicy mayonnaise."
+    }
+  ],
+  "chefNotes": "For restaurant-style crispy chicken lollipops, marinate the chicken for at least 2 hours or overnight. Rice flour makes the coating extra crunchy, and double-frying for 1–2 minutes before serving gives an even crispier texture.",
+  "tags": [
+    "indo-chinese",
+    "starter",
+    "crispy",
+    "chicken",
+    "party food",
+    "deep fried",
+    "popular"
+  ],
+  "featured": true,
+  "trending": true,
+  "rating": 4.9,
+  "reviews": 846
+},
+{
+  "id": 35,
+  "name": "Chicken Tikka",
+  "slug": "chicken-tikka",
+  "cuisine": "North Indian",
+  "region": "Northern India",
+  "category": "Starter",
+  "emoji": "🍢",
+  "image": "https://img.freepik.com/premium-photo/chicken-tikka-uhd-wallpaper_1025314-2852.jpg",
+  "description": "Juicy boneless chicken cubes marinated in spiced yogurt and grilled to perfection, delivering a smoky, flavorful, and tender appetizer loved across India.",
+  "prepTime": "20 mins",
+  "cookTime": "25 mins",
+  "difficulty": "Medium",
+  "servings": 4,
+  "calories": "320",
+  "protein": "34g",
+  "nutrition": {
+    "calories": "320 kcal",
+    "protein": "34g",
+    "carbs": "8g",
+    "fat": "17g",
+    "fiber": "1g"
+  },
+  "ingredients": [
+    "500g boneless chicken (thigh or breast), cut into cubes",
+    "1/2 cup thick hung curd (Greek yogurt)",
+    "1 tbsp ginger-garlic paste",
+    "1 tbsp lemon juice",
+    "1 tbsp mustard oil",
+    "1 tsp Kashmiri red chili powder",
+    "1/2 tsp red chili powder",
+    "1 tsp turmeric powder",
+    "1 tsp coriander powder",
+    "1 tsp cumin powder",
+    "1 tsp garam masala",
+    "1 tsp chaat masala",
+    "1 tsp kasuri methi, crushed",
+    "1 tbsp gram flour (besan), lightly roasted",
+    "1 tbsp butter for basting",
+    "Salt to taste",
+    "Capsicum cubes (optional)",
+    "Onion cubes (optional)",
+    "Lemon wedges for serving"
+  ],
+  "instructions": [
+    {
+      "title": "Prepare the Marinade",
+      "text": "In a large bowl, combine hung curd, ginger-garlic paste, lemon juice, mustard oil, Kashmiri red chili powder, red chili powder, turmeric, coriander powder, cumin powder, garam masala, chaat masala, crushed kasuri methi, roasted besan, and salt."
+    },
+    {
+      "title": "Marinate the Chicken",
+      "text": "Add the chicken cubes to the marinade and coat them evenly. Cover and refrigerate for at least 2 hours or overnight for the best flavor and tenderness."
+    },
+    {
+      "title": "Skewer the Chicken",
+      "text": "Thread the marinated chicken onto skewers, alternating with onion and capsicum cubes if desired."
+    },
+    {
+      "title": "Grill the Tikka",
+      "text": "Grill in a preheated oven at 220°C for 18–20 minutes, an air fryer at 200°C for 15–18 minutes, or on a charcoal grill until the chicken is cooked through and lightly charred. Baste with butter halfway through cooking."
+    },
+    {
+      "title": "Serve Hot",
+      "text": "Sprinkle chaat masala over the grilled chicken tikka and serve with mint chutney, onion rings, and lemon wedges."
+    }
+  ],
+  "chefNotes": "Hung curd gives the best coating and prevents the marinade from becoming watery. Marinating overnight results in exceptionally juicy and flavorful chicken. For authentic restaurant-style smoky flavor, place a small bowl with hot charcoal inside the cooked chicken, drizzle a little ghee on the charcoal, cover for 3–5 minutes, and then serve.",
+  "tags": [
+    "north indian",
+    "starter",
+    "high protein",
+    "grilled",
+    "bbq",
+    "restaurant style",
+    "party food"
+  ],
+  "featured": true,
+  "trending": true,
+  "rating": 4.9,
+  "reviews": 1248
 }
 
 
