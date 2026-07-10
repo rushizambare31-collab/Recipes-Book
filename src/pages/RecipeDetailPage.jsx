@@ -46,9 +46,8 @@ export default function RecipeDetailPage() {
     <div>
       {/* Breadcrumb */}
       <div className="container-editorial pt-8">
-        <nav className={`flex items-center gap-2 text-xs ${
-          isDark ? 'text-brown-500' : 'text-brown-400'
-        }`}>
+        <nav className={`flex items-center gap-2 text-xs ${isDark ? 'text-brown-500' : 'text-brown-400'
+          }`}>
           <Link to="/" className="hover:text-orange-400 transition-colors">Home</Link>
           <FiChevronRight size={12} />
           <Link to="/recipes" className="hover:text-orange-400 transition-colors">{recipe.cuisine} Cuisine</Link>
@@ -66,9 +65,9 @@ export default function RecipeDetailPage() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-1">
               {/* Left - Image */}
-              <div className="relative rounded-3xl overflow-hidden aspect-[4/3]">
+              <div className="relative h-[550px] w-[550px] rounded-3xl overflow-hidden aspect-[4/3]">
                 <img
                   src={recipe.image}
                   alt={recipe.name}
@@ -88,9 +87,8 @@ export default function RecipeDetailPage() {
               </div>
 
               {/* Right - Recipe Card */}
-              <div className={`rounded-3xl p-7 sm:p-9 ${
-                isDark ? 'bg-brown-800' : 'bg-white'
-              }`}>
+              <div className={`rounded-3xl h-[550px] w-[550px] p-7 sm:p-9 ${isDark ? 'bg-brown-800' : 'bg-white'
+                }`}>
                 <div className="flex items-start justify-between mb-3">
                   <div>
                     <h2 className="font-serif text-2xl text-orange-400 italic mb-1.5">
@@ -100,9 +98,8 @@ export default function RecipeDetailPage() {
                       Essential details for the perfect cook.
                     </p>
                   </div>
-                  <span className={`label-uppercase px-3 py-1 rounded-lg border text-xs ${
-                    isDark ? 'border-dark-border text-brown-400' : 'border-cream-400 text-brown-400'
-                  }`}>
+                  <span className={`label-uppercase px-3 py-1 rounded-lg border text-xs ${isDark ? 'border-dark-border text-brown-400' : 'border-cream-400 text-brown-400'
+                    }`}>
                     PAGE 01
                   </span>
                 </div>
@@ -130,7 +127,7 @@ export default function RecipeDetailPage() {
                 <div className="mt-10 text-right">
                   <button
                     onClick={() => setActiveView('details')}
-                    className="inline-flex items-center gap-2 text-orange-400 text-sm font-medium hover:gap-3 transition-all"
+                    className="inline-flex items-center gap-2 text-sm font-medium transition-all duration-300 ease-in-out hover:translate-x-1 text-orange-400"
                   >
                     Next: Ingredients <FiArrowRight size={16} />
                   </button>
@@ -145,60 +142,63 @@ export default function RecipeDetailPage() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
           >
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-1 h-[700px]">
               {/* Left - Ingredients */}
-              <div className={`rounded-3xl p-7 sm:p-9 ${isDark ? 'bg-brown-800' : 'bg-white'}`}>
+              <div className={`rounded-3xl h-[550px] w-[550px] p-7 sm:p-9 flex flex-col ${isDark ? 'bg-brown-800' : 'bg-white'}`}>
                 <div className="flex items-start justify-between mb-8">
                   <h2 className="font-serif text-2xl text-orange-400 italic">Ingredients</h2>
-                  <span className={`label-uppercase px-3 py-1 rounded-lg border text-xs ${
-                    isDark ? 'border-dark-border text-brown-400' : 'border-cream-400 text-brown-400'
-                  }`}>
+                  <span className={`label-uppercase px-3 py-1 rounded-lg border text-xs ${isDark ? 'border-dark-border text-brown-400' : 'border-cream-400 text-brown-400'
+                    }`}>
                     PAGE 02
                   </span>
                 </div>
 
-                <ul className="space-y-3.5">
+                <ul className="flex-1 overflow-y-auto space-y-3.5 pr-2">
                   {recipe.ingredients.map((ing, i) => (
-                    <li key={i} className={`flex items-start gap-3 text-sm leading-relaxed ${
-                      isDark ? 'text-cream-200' : 'text-brown-700'
-                    }`}>
-                      <span className={`w-4 h-4 mt-0.5 flex-shrink-0 rounded border ${
-                        isDark ? 'border-dark-border' : 'border-cream-400'
-                      }`} />
+                    <li key={i} className={`flex items-start gap-3 text-sm leading-relaxed ${isDark ? 'text-cream-200' : 'text-brown-700'
+                      }`}>
+                      <span className={`w-4 h-4 mt-0.5 flex-shrink-0 rounded border ${isDark ? 'border-dark-border' : 'border-cream-400'
+                        }`} />
                       {ing}
                     </li>
                   ))}
                 </ul>
+                {/* Back button */}
+                <div className="mt-8">
+                  <button
+                    onClick={() => setActiveView('overview')}
+                    className={`text-orange-400 inline-flex items-center gap-2 text-sm font-medium transition-all duration-300 ease-in-out hover:-translate-x-1 ${isDark ? 'text-cream-200 hover:text-orange-400' : 'text-brown-700 hover:text-orange-400'
+                      }`}
+                  >
+                    <FiArrowLeft size={16} /> Back to Overview
+                  </button>
+                </div>
               </div>
 
               {/* Right - Instructions */}
-              <div className={`rounded-3xl p-7 sm:p-9 ${isDark ? 'bg-brown-800' : 'bg-white'}`}>
+              <div className={`rounded-3xl h-[550px] w-[550px] p-7 sm:p-9 flex flex-col ${isDark ? 'bg-brown-800' : 'bg-white'}`}>
                 <div className="flex items-start justify-between mb-8">
                   <h2 className="font-serif text-2xl text-orange-400 italic">Instructions</h2>
-                  <span className={`label-uppercase px-3 py-1 rounded-lg border text-xs ${
-                    isDark ? 'border-dark-border text-brown-400' : 'border-cream-400 text-brown-400'
-                  }`}>
+                  <span className={`label-uppercase px-3 py-1 rounded-lg border text-xs ${isDark ? 'border-dark-border text-brown-400' : 'border-cream-400 text-brown-400'
+                    }`}>
                     PAGE 03
                   </span>
                 </div>
 
-                <div className="space-y-7">
+                <div className="flex-1 overflow-y-auto space-y-7 pr-2">
                   {recipe.instructions.map((step, i) => (
                     <div key={i} className="flex gap-4">
-                      <span className={`font-serif text-2xl font-bold flex-shrink-0 w-8 ${
-                        isDark ? 'text-brown-600' : 'text-cream-400'
-                      }`}>
+                      <span className={`font-serif text-2xl font-bold flex-shrink-0 w-8 ${isDark ? 'text-brown-600' : 'text-cream-400'
+                        }`}>
                         {i + 1}
                       </span>
                       <div>
-                        <h4 className={`font-serif text-base font-semibold mb-2 ${
-                          isDark ? 'text-cream-200' : 'text-brown-800'
-                        }`}>
+                        <h4 className={`font-serif text-base font-semibold mb-2 ${isDark ? 'text-cream-200' : 'text-brown-800'
+                          }`}>
                           {step.title}
                         </h4>
-                        <p className={`text-sm leading-relaxed ${
-                          isDark ? 'text-brown-400' : 'text-brown-500'
-                        }`}>
+                        <p className={`text-sm leading-relaxed ${isDark ? 'text-brown-400' : 'text-brown-500'
+                          }`}>
                           {step.text}
                         </p>
                       </div>
@@ -208,32 +208,18 @@ export default function RecipeDetailPage() {
 
                 {/* Chef's Notes */}
                 {recipe.chefNotes && (
-                  <div className={`mt-10 p-6 rounded-2xl ${
-                    isDark ? 'bg-orange-400/10 border border-orange-400/20' : 'bg-orange-50 border border-orange-100'
-                  }`}>
+                  <div className={`mt-10 p-4 rounded-2xl ${isDark ? 'bg-orange-400/10 border border-orange-400/20' : 'bg-orange-50 border border-orange-100'
+                    }`}>
                     <p className="text-orange-400 text-xs font-semibold uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
                       📍 CHEF'S NOTE
                     </p>
-                    <p className={`text-sm italic leading-relaxed ${
-                      isDark ? 'text-cream-200' : 'text-brown-700'
-                    }`}>
+                    <p className={`text-sm italic leading-relaxed ${isDark ? 'text-cream-200' : 'text-brown-700'
+                      }`}>
                       "{recipe.chefNotes}"
                     </p>
                   </div>
                 )}
               </div>
-            </div>
-
-            {/* Back button */}
-            <div className="mt-8">
-              <button
-                onClick={() => setActiveView('overview')}
-                className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${
-                  isDark ? 'text-cream-200 hover:text-orange-400' : 'text-brown-700 hover:text-orange-400'
-                }`}
-              >
-                <FiArrowLeft size={16} /> Back to Overview
-              </button>
             </div>
           </motion.div>
         )}
@@ -242,21 +228,19 @@ export default function RecipeDetailPage() {
         <div className="flex flex-wrap items-center justify-center gap-4 mt-12 pt-10 border-t border-cream-400 dark:border-dark-border">
           <button
             onClick={handlePrint}
-            className={`inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-semibold transition-colors ${
-              isDark
+            className={`inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-semibold transition-colors ${isDark
                 ? 'bg-brown-800 text-cream-200 hover:bg-brown-700'
                 : 'bg-brown-800 text-white hover:bg-brown-700'
-            }`}
+              }`}
             id="print-recipe-btn"
           >
             <FiPrinter size={16} />
             Print Recipe Card
           </button>
-          <div className={`inline-flex items-center gap-2 px-8 py-3.5 rounded-full border text-sm font-semibold transition-colors ${
-            isDark
+          <div className={`inline-flex items-center gap-2 px-8 py-3.5 rounded-full border text-sm font-semibold transition-colors ${isDark
               ? 'border-dark-border text-cream-200 hover:border-orange-400'
               : 'border-brown-300 text-brown-700 hover:border-orange-400'
-          }`}>
+            }`}>
             <FavoriteButton recipeId={recipe.id} size={16} />
             Save to Cookbook
           </div>
@@ -266,11 +250,10 @@ export default function RecipeDetailPage() {
         {recipe.tags && (
           <div className="flex flex-wrap items-center justify-center gap-2.5 mt-8">
             {recipe.tags.map((tag, i) => (
-              <span key={i} className={`px-3.5 py-1.5 rounded-full text-xs font-medium border ${
-                isDark
+              <span key={i} className={`px-3.5 py-1.5 rounded-full text-xs font-medium border ${isDark
                   ? 'border-dark-border text-brown-400'
                   : 'border-cream-400 text-brown-500'
-              }`}>
+                }`}>
                 {tag}
               </span>
             ))}
