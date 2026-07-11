@@ -4481,5 +4481,153 @@
     "high-fiber",
     "traditional"
   ]
+},
+{
+  "id": 37,
+  "slug": "shevga-handi",
+  "featured": false,
+  "trending": true,
+  "rating": 4.7,
+  "reviews": 184,
+  "languages": {
+    "en": {
+      "name": "Shevga Handi",
+      "description": "A traditional Maharashtrian curry made with tender drumsticks (moringa pods) cooked in a rich onion, tomato, peanut, coconut, and goda masala gravy. Best enjoyed with bhakri, chapati, or steamed rice.",
+      "chefNotes": "Roasting the coconut and peanuts before grinding gives the gravy a rich, authentic village-style flavor. Cook the drumsticks until just tender so they retain their texture.",
+      "ingredients": [
+        "4 drumsticks (Shevga), cut into 2-inch pieces",
+        "2 medium onions, finely sliced",
+        "2 medium tomatoes, chopped",
+        "8 garlic cloves",
+        "1 inch ginger",
+        "2 green chilies",
+        "1/4 cup roasted peanuts",
+        "1/4 cup grated dry coconut",
+        "2 tbsp fresh coconut, grated",
+        "2 tbsp oil",
+        "1 tsp mustard seeds",
+        "1 tsp cumin seeds",
+        "10 curry leaves",
+        "1/2 tsp turmeric powder",
+        "2 tsp red chili powder",
+        "1 tsp coriander powder",
+        "1 tsp goda masala",
+        "1/2 tsp garam masala",
+        "3 cups hot water",
+        "2 tbsp fresh coriander leaves, chopped",
+        "Salt to taste"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prepare the Drumsticks",
+          "text": "Wash the drumsticks, peel the rough edges if needed, and cut them into 2-inch pieces. Pressure cook for 1 whistle or boil until slightly tender."
+        },
+        {
+          "step": 2,
+          "title": "Prepare the Masala Paste",
+          "text": "Roast the dry coconut until golden. Grind it with roasted peanuts, ginger, garlic, green chilies, and a little water into a smooth paste."
+        },
+        {
+          "step": 3,
+          "title": "Cook the Base",
+          "text": "Heat oil in a handi or kadai. Add mustard seeds, cumin seeds, and curry leaves. Add sliced onions and sauté until golden brown. Add tomatoes and cook until soft."
+        },
+        {
+          "step": 4,
+          "title": "Make the Gravy",
+          "text": "Add the prepared masala paste, turmeric, red chili powder, coriander powder, goda masala, garam masala, and salt. Cook until the oil separates. Add hot water and bring the curry to a boil."
+        },
+        {
+          "step": 5,
+          "title": "Finish and Serve",
+          "text": "Add the cooked drumsticks and simmer for 8–10 minutes. Garnish with fresh coconut and chopped coriander. Serve hot with jowar bhakri, chapati, or steamed rice."
+        }
+      ]
+    },
+    "mr": {
+      "name": "शेवगा हांडी",
+      "description": "शेवग्याच्या शेंगा, कांदा, टोमॅटो, शेंगदाणे, खोबरे आणि गोडा मसाल्याच्या झणझणीत रस्स्यात बनवलेली पारंपरिक महाराष्ट्रीयन भाजी. भाकरी, चपाती किंवा गरम भातासोबत अप्रतिम लागते.",
+      "chefNotes": "खोबरे आणि शेंगदाणे भाजून वाटल्यास रस्स्याला अस्सल गावाकडची चव येते. शेवग्याच्या शेंगा जास्त शिजवू नका, त्यामुळे त्यांचा पोत टिकून राहतो.",
+      "ingredients": [
+        "४ शेवग्याच्या शेंगा, २ इंच तुकडे केलेल्या",
+        "२ मध्यम कांदे, बारीक चिरलेले",
+        "२ मध्यम टोमॅटो, चिरलेले",
+        "८ लसूण पाकळ्या",
+        "१ इंच आले",
+        "२ हिरव्या मिरच्या",
+        "१/४ कप भाजलेले शेंगदाणे",
+        "१/४ कप भाजलेले सुके खोबरे",
+        "२ टेबलस्पून ताजे किसलेले खोबरे",
+        "२ टेबलस्पून तेल",
+        "१ टीस्पून मोहरी",
+        "१ टीस्पून जिरे",
+        "१० कढीपत्त्याची पाने",
+        "१/२ टीस्पून हळद",
+        "२ टीस्पून लाल तिखट",
+        "१ टीस्पून धणेपूड",
+        "१ टीस्पून गोडा मसाला",
+        "१/२ टीस्पून गरम मसाला",
+        "३ कप गरम पाणी",
+        "२ टेबलस्पून चिरलेली कोथिंबीर",
+        "चवीनुसार मीठ"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "शेवगा तयार करा",
+          "text": "शेवग्याच्या शेंगा स्वच्छ धुऊन २ इंचाचे तुकडे करा. एक शिट्टी होईपर्यंत कुकरमध्ये किंवा मऊ होईपर्यंत उकळा."
+        },
+        {
+          "step": 2,
+          "title": "मसाला वाटा",
+          "text": "खोबरे भाजून घ्या. ते शेंगदाणे, आले, लसूण आणि हिरव्या मिरच्यांसोबत थोडे पाणी घालून बारीक वाटून घ्या."
+        },
+        {
+          "step": 3,
+          "title": "फोडणी आणि बेस तयार करा",
+          "text": "हांडीत तेल गरम करून मोहरी, जिरे आणि कढीपत्ता घाला. कांदा सोनेरी होईपर्यंत परता. नंतर टोमॅटो घालून मऊ होईपर्यंत शिजवा."
+        },
+        {
+          "step": 4,
+          "title": "रस्सा तयार करा",
+          "text": "वाटलेला मसाला, हळद, लाल तिखट, धणेपूड, गोडा मसाला, गरम मसाला आणि मीठ घालून तेल सुटेपर्यंत परता. गरम पाणी घालून उकळी आणा."
+        },
+        {
+          "step": 5,
+          "title": "सर्व्ह करा",
+          "text": "शिजवलेल्या शेवग्याच्या शेंगा घालून ८–१० मिनिटे मंद आचेवर उकळा. वरून ताजे खोबरे आणि कोथिंबीर घालून गरमागरम भाकरी, चपाती किंवा भातासोबत सर्व्ह करा."
+        }
+      ]
+    }
+  },
+  "video": {
+    "youtubeId": "D4P0Hqk3x6E",
+    "channel": "MadhurasRecipe Marathi",
+    "duration": "9:48"
+  },
+  "nutrition": {
+    "calories": "195 kcal",
+    "protein": "6g",
+    "carbs": "17g",
+    "fat": "11g",
+    "fiber": "7g"
+  },
+  "prepTime": "20 mins",
+  "cookTime": "30 mins",
+  "servings": 4,
+  "difficulty": "Medium",
+  "category": "Main Course",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "image": "https://i.ytimg.com/vi/yU3mOrcybpc/hqdefault.jpg",
+  "tags": [
+    "maharashtrian",
+    "drumstick",
+    "traditional",
+    "handi",
+    "vegetarian",
+    "comfort food"
+  ]
 }
 ]
