@@ -4351,5 +4351,135 @@
       "restaurant style",
       "party food"
     ]
-  }
+  },
+  {
+  "id": 36,
+  "slug": "methi-chi-bhaji",
+  "featured": false,
+  "trending": false,
+  "rating": 4.6,
+  "reviews": 196,
+  "languages": {
+    "en": {
+      "name": "Methi Chi Bhaji",
+      "description": "A healthy Maharashtrian dry vegetable dish made with fresh fenugreek leaves, onions, garlic, and mild spices. It pairs wonderfully with bhakri, chapati, or dal-rice.",
+      "chefNotes": "Fresh methi leaves naturally have a slight bitterness. Avoid overcooking them, and add freshly grated coconut at the end for an authentic Maharashtrian flavor.",
+      "ingredients": [
+        "4 cups fresh fenugreek (Methi) leaves, cleaned and chopped",
+        "1 medium onion, finely chopped",
+        "5 garlic cloves, crushed",
+        "2 green chilies, chopped",
+        "2 tbsp oil",
+        "1 tsp mustard seeds",
+        "1/2 tsp cumin seeds",
+        "1/4 tsp turmeric powder",
+        "1 tsp red chili powder",
+        "2 tbsp grated fresh coconut",
+        "2 tbsp roasted peanut powder (optional)",
+        "Salt to taste"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prepare the Methi",
+          "text": "Separate the methi leaves from the stems, wash thoroughly 2–3 times, drain the excess water, and chop them finely."
+        },
+        {
+          "step": 2,
+          "title": "Prepare the Tempering",
+          "text": "Heat oil in a kadai. Add mustard seeds and cumin seeds. Once they crackle, add crushed garlic and green chilies. Sauté until fragrant."
+        },
+        {
+          "step": 3,
+          "title": "Cook the Onion",
+          "text": "Add the chopped onion and cook until soft and light golden in color."
+        },
+        {
+          "step": 4,
+          "title": "Cook the Bhaji",
+          "text": "Add turmeric, red chili powder, and chopped methi leaves. Mix well, add salt, cover, and cook on low flame for 8–10 minutes, stirring occasionally."
+        },
+        {
+          "step": 5,
+          "title": "Finish and Serve",
+          "text": "Add grated coconut and roasted peanut powder, mix gently, and serve hot with jowar bhakri, chapati, or dal-rice."
+        }
+      ]
+    },
+    "mr": {
+      "name": "मेथीची भाजी",
+      "description": "ताजी मेथी, कांदा, लसूण आणि हलक्या मसाल्यांपासून बनवलेली पौष्टिक महाराष्ट्रीयन सुकी भाजी. भाकरी, चपाती किंवा वरण-भातासोबत खूप छान लागते.",
+      "chefNotes": "ताज्या मेथीला किंचित कडूपणा असतो. भाजी जास्त शिजवू नका आणि शेवटी ताजा किसलेला नारळ घातल्यास अस्सल महाराष्ट्रीयन चव मिळते.",
+      "ingredients": [
+        "४ कप ताजी मेथीची पाने, स्वच्छ धुऊन चिरलेली",
+        "१ मध्यम कांदा, बारीक चिरलेला",
+        "५ लसूण पाकळ्या, ठेचलेल्या",
+        "२ हिरव्या मिरच्या, चिरलेल्या",
+        "२ टेबलस्पून तेल",
+        "१ टीस्पून मोहरी",
+        "१/२ टीस्पून जिरे",
+        "१/४ टीस्पून हळद",
+        "१ टीस्पून लाल तिखट",
+        "२ टेबलस्पून ताजा किसलेला नारळ",
+        "२ टेबलस्पून भाजलेल्या शेंगदाण्याचा कूट (ऐच्छिक)",
+        "चवीनुसार मीठ"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "मेथी तयार करा",
+          "text": "मेथीची पाने देठापासून वेगळी करून २–३ वेळा स्वच्छ धुवा, पाणी निथळू द्या आणि बारीक चिरा."
+        },
+        {
+          "step": 2,
+          "title": "फोडणी द्या",
+          "text": "कढईत तेल गरम करून मोहरी व जिरे तडतडू द्या. त्यात ठेचलेला लसूण आणि हिरव्या मिरच्या घालून परता."
+        },
+        {
+          "step": 3,
+          "title": "कांदा परता",
+          "text": "बारीक चिरलेला कांदा घालून तो मऊ आणि हलका सोनेरी होईपर्यंत परता."
+        },
+        {
+          "step": 4,
+          "title": "भाजी शिजवा",
+          "text": "हळद, लाल तिखट आणि चिरलेली मेथी घालून चांगले मिसळा. मीठ घालून झाकण ठेवून मंद आचेवर ८–१० मिनिटे शिजवा."
+        },
+        {
+          "step": 5,
+          "title": "सर्व्ह करा",
+          "text": "शेवटी किसलेला नारळ आणि शेंगदाण्याचा कूट घालून हलकेच मिसळा. गरमागरम ज्वारीची भाकरी, चपाती किंवा वरण-भातासोबत सर्व्ह करा."
+        }
+      ]
+    }
+  },
+  "video": {
+    "youtubeId": "N4dL8kK2i5Y",
+    "channel": "MadhurasRecipe Marathi",
+    "duration": "7:42"
+  },
+  "nutrition": {
+    "calories": "145 kcal",
+    "protein": "5g",
+    "carbs": "10g",
+    "fat": "8g",
+    "fiber": "5g"
+  },
+  "prepTime": "15 mins",
+  "cookTime": "15 mins",
+  "servings": 4,
+  "difficulty": "Easy",
+  "category": "Main Course",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "image": "https://zanzaneetkitchen.com/wp-content/uploads/2022/12/MethiBlog-750x1125.png",
+  "tags": [
+    "healthy",
+    "leafy greens",
+    "maharashtrian",
+    "vegetarian",
+    "high-fiber",
+    "traditional"
+  ]
+}
 ]
