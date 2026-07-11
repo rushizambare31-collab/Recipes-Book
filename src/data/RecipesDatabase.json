@@ -4629,5 +4629,132 @@
     "vegetarian",
     "comfort food"
   ]
+},
+{
+  "id": 38,
+  "slug": "basundi",
+  "featured": true,
+  "trending": true,
+  "rating": 4.9,
+  "reviews": 528,
+  "languages": {
+    "en": {
+      "name": "Basundi",
+      "description": "A rich and creamy Maharashtrian dessert made by slowly reducing full-fat milk and flavored with cardamom, saffron, and crunchy dry fruits. It is traditionally served chilled during festivals and celebrations.",
+      "chefNotes": "Always simmer the milk on low heat and keep scraping the cream (malai) from the sides of the pan back into the milk. This gives Basundi its signature thick and creamy texture.",
+      "ingredients": [
+        "2 liters full-fat milk",
+        "1/2 cup sugar",
+        "1/4 tsp cardamom powder",
+        "10-12 saffron strands",
+        "2 tbsp warm milk (for soaking saffron)",
+        "2 tbsp chopped almonds",
+        "2 tbsp chopped pistachios",
+        "1 tbsp chopped cashews",
+        "1 tbsp charoli (optional)",
+        "1 tsp rose water (optional)"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Boil the Milk",
+          "text": "Bring the full-fat milk to a boil in a heavy-bottomed pan. Stir occasionally to prevent sticking."
+        },
+        {
+          "step": 2,
+          "title": "Reduce the Milk",
+          "text": "Cook the milk on low flame for 45–60 minutes, stirring frequently and scraping the cream from the sides back into the milk until it reduces by about one-third."
+        },
+        {
+          "step": 3,
+          "title": "Add Sugar and Flavoring",
+          "text": "Add sugar, saffron soaked in warm milk, and cardamom powder. Stir well and cook for another 5–7 minutes until the sugar dissolves completely."
+        },
+        {
+          "step": 4,
+          "title": "Add Dry Fruits",
+          "text": "Mix in chopped almonds, pistachios, cashews, and charoli. Add rose water if using and cook for another 2 minutes."
+        },
+        {
+          "step": 5,
+          "title": "Chill and Serve",
+          "text": "Allow the Basundi to cool completely, then refrigerate for at least 3 hours. Garnish with additional dry fruits and saffron before serving chilled."
+        }
+      ]
+    },
+    "mr": {
+      "name": "बासुंदी",
+      "description": "साययुक्त दूध आटवून त्यात वेलची, केशर आणि सुका मेवा घालून बनवलेला पारंपरिक महाराष्ट्रीयन गोड पदार्थ. सण-उत्सवात थंडगार बासुंदी विशेष आवडीने खाल्ली जाते.",
+      "chefNotes": "दूध नेहमी मंद आचेवर आटवा आणि भांड्याच्या कडेला लागलेली साय परत दुधात मिसळत राहा. त्यामुळे बासुंदी अधिक घट्ट आणि स्वादिष्ट बनते.",
+      "ingredients": [
+        "२ लिटर साययुक्त दूध",
+        "१/२ कप साखर",
+        "१/४ टीस्पून वेलची पूड",
+        "१०-१२ केशर काड्या",
+        "२ टेबलस्पून कोमट दूध (केशर भिजवण्यासाठी)",
+        "२ टेबलस्पून चिरलेले बदाम",
+        "२ टेबलस्पून चिरलेले पिस्ते",
+        "१ टेबलस्पून चिरलेले काजू",
+        "१ टेबलस्पून चारोळी (ऐच्छिक)",
+        "१ टीस्पून गुलाबजल (ऐच्छिक)"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "दूध उकळा",
+          "text": "जाड बुडाच्या पातेल्यात दूध उकळा. दूध तळाला लागू नये म्हणून मधूनमधून हलवत राहा."
+        },
+        {
+          "step": 2,
+          "title": "दूध आटवा",
+          "text": "मंद आचेवर ४५–६० मिनिटे दूध आटवा. कडेला लागलेली साय परत दुधात मिसळत राहा. दूध साधारण एक-तृतीयांश कमी होईपर्यंत शिजवा."
+        },
+        {
+          "step": 3,
+          "title": "साखर आणि स्वाद घाला",
+          "text": "साखर, कोमट दुधात भिजवलेले केशर आणि वेलची पूड घालून ५–७ मिनिटे शिजवा."
+        },
+        {
+          "step": 4,
+          "title": "सुका मेवा घाला",
+          "text": "बदाम, पिस्ते, काजू आणि चारोळी घालून चांगले मिसळा. इच्छेनुसार गुलाबजल घालून २ मिनिटे शिजवा."
+        },
+        {
+          "step": 5,
+          "title": "गार करून सर्व्ह करा",
+          "text": "बासुंदी पूर्णपणे थंड झाल्यावर किमान ३ तास फ्रिजमध्ये ठेवा. वरून सुका मेवा आणि केशर घालून थंडगार सर्व्ह करा."
+        }
+      ]
+    }
+  },
+  "video": {
+    "youtubeId": "l5rY8M6s7xQ",
+    "channel": "MadhurasRecipe Marathi",
+    "duration": "8:15"
+  },
+  "nutrition": {
+    "calories": "320 kcal",
+    "protein": "10g",
+    "carbs": "28g",
+    "fat": "19g",
+    "fiber": "1g"
+  },
+  "prepTime": "10 mins",
+  "cookTime": "60 mins",
+  "servings": 6,
+  "difficulty": "Medium",
+  "category": "Dessert",
+  "cuisine": "Maharashtrian",
+  "region": "Western India",
+  "image": "https://static.vecteezy.com/system/resources/thumbnails/047/461/583/small_2x/indian-basundi-with-saffron-on-a-pastel-pink-plate-photo.jpg",
+  "tags": [
+    "dessert",
+    "festival",
+    "sweet",
+    "milk-based",
+    "maharashtrian",
+    "traditional",
+    "vegetarian"
+  ]
 }
 ]
