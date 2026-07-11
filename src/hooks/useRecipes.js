@@ -12,7 +12,14 @@ export function useRecipes() {
   const [sortBy, setSortBy] = useState('popularity');
   const [currentPage, setCurrentPage] = useState(1);
 
-  const allRecipes = useMemo(() => recipesData, []);
+  const allRecipes = useMemo(() => recipesData.map(r => ({
+    ...r,
+    name: r.languages?.en?.name || r.name,
+    description: r.languages?.en?.description || r.description,
+    ingredients: r.languages?.en?.ingredients || r.ingredients,
+    instructions: r.languages?.en?.instructions || r.instructions,
+    chefNotes: r.languages?.en?.chefNotes || r.chefNotes,
+  })), []);
 
   const filteredRecipes = useMemo(() => {
     let result = [...allRecipes];
