@@ -1,11 +1,12 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
+const {SYSTEM_INSTRUCTION} = require("../config/aiPrompts");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function getAIResponse(conversationHistory) {
   const model = genAI.getGenerativeModel({ 
     model: "gemini-2.5-flash",
-    systemInstruction: "Tum ek friendly Indian cooking assistant ho jo recipe suggestions deta hai. Short, practical answers do."
+    systemInstruction: SYSTEM_INSTRUCTION
   });
 
   // Mongoose ke messages ko Gemini ke format mein convert karna padta hai
