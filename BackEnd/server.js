@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
+const chatRoutes = require("./routes/chatRoutes");
 
 const app = express();
 
@@ -15,6 +16,9 @@ app.use(express.json());
 
 // DB Connect
 connectDB();
+
+// path: /api/chat 
+app.use("/api/chat", chatRoutes);
 
 // Test route (temporary, sirf check karne ke liye ki server chal raha hai)
 app.get("/", (req, res) => {
