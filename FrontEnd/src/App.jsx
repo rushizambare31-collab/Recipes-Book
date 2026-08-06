@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import AppRoutes from './routes/AppRoutes';
-import ChatWindow from './components/ai/ChatWindow';
+// import ChatWindow from './components/ai/ChatWindow';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -36,9 +36,9 @@ export default function App() {
       </main>
       <Footer />
 
-      <div style={{ position: 'fixed', bottom: 20, right: 20, width: 350, height: 500, background: 'white', boxShadow: '0 0 20px rgba(0,0,0,0.2)', borderRadius: 12, overflow: 'hidden', zIndex: 9999 }}>
+      {/* <div style={{ position: 'fixed', bottom: 20, right: 20, width: 350, height: 500, background: 'white', boxShadow: '0 0 20px rgba(0,0,0,0.2)', borderRadius: 12, overflow: 'hidden', zIndex: 9999 }}>
         <ChatWindow />
-      </div>
+      </div> */}
 
     </div>
   );
