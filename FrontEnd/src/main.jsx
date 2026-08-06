@@ -5,14 +5,17 @@ import { ThemeProvider } from './context/ThemeContext';
 import { FavoritesProvider } from './context/FavoritesContext';
 import App from './App';
 import './index.css';
+import { AIChatProvider } from './context/AIChatContext';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <ThemeProvider>
-        <FavoritesProvider>
-          <App />
-        </FavoritesProvider>
+        <AIChatProvider>
+          <FavoritesProvider>
+            <App />
+          </FavoritesProvider>
+        </AIChatProvider>
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode>
