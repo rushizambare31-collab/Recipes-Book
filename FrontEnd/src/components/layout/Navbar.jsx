@@ -79,20 +79,6 @@ export default function Navbar() {
           {/* Right Actions */}
           <div className="flex items-center gap-3">
 
-            {/* Ask AI Button */}
-            <button
-              onClick={openChat}
-              className={`hidden sm:flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-200 ${isDark
-                  ? 'bg-brown-800 text-orange-400 hover:bg-brown-700'
-                  : 'bg-cream-200 text-orange-500 hover:bg-cream-300'
-                }`}
-              id="nav-ask-ai"
-              aria-label="Ask AI"
-            >
-              <HiSparkles size={16} />
-              Ask AI
-            </button>
-
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
@@ -121,6 +107,20 @@ export default function Navbar() {
               id="nav-subscribe"
             >
               Subscribe
+            </button>
+
+            {/* Ask AI Button */}
+            <button
+              onClick={openChat}
+              className={`hidden sm:flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-200 ${isDark
+                  ? 'bg-brown-800 text-orange-400 hover:bg-brown-700'
+                  : 'bg-cream-200 text-orange-500 hover:bg-cream-300'
+                }`}
+              id="nav-ask-ai"
+              aria-label="Ask AI"
+            >
+              <HiSparkles size={16} />
+              Ask AI
             </button>
 
             {/* Mobile Menu Toggle */}
