@@ -78,7 +78,7 @@ export default function Navbar() {
 
           {/* Right Actions */}
           <div className="flex items-center gap-3">
-            
+
             {/* Ask AI Button */}
             <button
               onClick={openChat}
