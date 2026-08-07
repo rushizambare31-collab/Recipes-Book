@@ -4,7 +4,7 @@ import { useAIChat } from "../../hooks/useAIChat";
 import { useTheme } from "../../context/ThemeContext";
 
 export default function ChatWindow() {
-  const { messages, sendMessage, loading, error } = useAIChat();
+  const { messages, sendMessage, loading, error, historyLoading } = useAIChat();
   const { isDark } = useTheme();
   const [input, setInput] = useState("");
   const messagesEndRef = useRef(null);
@@ -23,27 +23,35 @@ export default function ChatWindow() {
   return (
     <div className="flex flex-col h-full">
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        {messages.length === 0 && (
-          <p className={`text-center mt-8 text-sm ${isDark ? "text-brown-400" : "text-gray-400"}`}>
-            Kuch bhi poocho — "aloo tamatar hai, kya banau?"
-          </p>
-        )}
-
-        {messages.map((msg, index) => (
-          <div key={index} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
-            <div
-              className={`max-w-[85%] rounded-2xl px-4 py-2 text-sm ${
-                msg.role === "user"
-                  ? "bg-orange-500 text-white"
-                  : isDark
-                  ? "bg-brown-800 text-cream-100"
-                  : "bg-gray-100 text-gray-800"
-              }`}
-            >
-              <ReactMarkdown>{msg.content}</ReactMarkdown>
-            </div>
+        {historyLoading ? (
+          <div className={`text-center mt-8 text-sm ${isDark ? "text-brown-400" : "text-gray-400"}`}>
+            Purani baatcheet load ho rahi hai...
           </div>
-        ))}
+        ) : (
+          <>
+            {messages.length === 0 && (
+              <p className={`text-center mt-8 text-sm ${isDark ? "text-brown-400" : "text-gray-400"}`}>
+                Kuch bhi poocho — "aloo tamatar hai, kya banau?"
+              </p>
+            )}
+
+            {messages.map((msg, index) => (
+              <div key={index} className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
+                <div
+                  className={`max-w-[85%] rounded-2xl px-4 py-2 text-sm ${
+                    msg.role === "user"
+                      ? "bg-orange-500 text-white"
+                      : isDark
+                      ? "bg-brown-800 text-cream-100"
+                      : "bg-gray-100 text-gray-800"
+                  }`}
+                >
+                  <ReactMarkdown>{msg.content}</ReactMarkdown>
+                </div>
+              </div>
+            ))}
+          </>
+        )}
 
         {loading && (
           <div className="flex justify-start">
