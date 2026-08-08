@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import LoadingSkeleton from '../components/ui/LoadingSkeleton';
+import AIChatPage from '../pages/AIChatPage';
 
 const HomePage = lazy(() => import('../pages/HomePage'));
 const RecipesPage = lazy(() => import('../pages/RecipesPage'));
@@ -9,6 +10,7 @@ const FavoritesPage = lazy(() => import('../pages/FavoritesPage'));
 const AboutPage = lazy(() => import('../pages/AboutPage'));
 const ContactPage = lazy(() => import('../pages/ContactPage'));
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
+
 
 function PageLoader() {
   return (
@@ -28,6 +30,7 @@ export default function AppRoutes() {
         <Route path="/favorites" element={<FavoritesPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/ask-ai" element={<AIChatPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Suspense>
