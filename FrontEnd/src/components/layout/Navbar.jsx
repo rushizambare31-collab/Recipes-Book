@@ -111,7 +111,7 @@ export default function Navbar() {
 
             {/* Ask AI Button */}
             <button
-              onClick={openChat}
+              onClick={() => navigate('/ask-ai')}
               className={`hidden sm:flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-200 ${isDark
                   ? 'bg-brown-800 text-orange-400 hover:bg-brown-700'
                   : 'bg-cream-200 text-orange-500 hover:bg-cream-300'

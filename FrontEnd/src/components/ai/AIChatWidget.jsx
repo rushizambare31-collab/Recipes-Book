@@ -4,10 +4,14 @@ import { FiX } from "react-icons/fi";
 import { useAIChatContext } from "../../context/AIChatContext";
 import { useTheme } from "../../context/ThemeContext";
 import ChatWindow from "./ChatWindow";
+import { useLocation } from 'react-router-dom';
 
 export default function AIChatWidget() {
+  const location = useLocation();
   const { isOpen, toggleChat } = useAIChatContext();
   const { isDark } = useTheme();
+
+  if (location.pathname === '/ask-ai') return null; 
 
   return (
     <>

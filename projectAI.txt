@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+<div className="container-editorial pb-6 text-center">
+        <p className={`text-xs font-semibold tracking-wide uppercase mb-2 ${isDark ? 'text-orange-400' : 'text-orange-500'}`}>
+          Recipe AI Assistant
+        </p>
+        <h1 className={`font-serif italic text-3xl md:text-4xl font-bold ${isDark ? 'text-cream-100' : 'text-brown-800'}`}>
+          Poocho, kya banau aaj?
+        </h1>
+      </div>
